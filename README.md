@@ -14,7 +14,7 @@
 
 - Mặc định sau khi cài đặt, bạn cần tự điền **Đường dẫn trang web** và danh sách **Từ khóa** (cách nhau bởi dấu phẩy).
 - Tiện ích tự động chạy khi bạn mở trình duyệt. Nếu trúng từ khóa trong trang đích, cửa sổ dạng popup sẽ nhảy ra ở giữa màn hình.
-- Để tùy chỉnh cấu hình: Click chuột phải vào biểu tượng Extension ở thanh công cụ Chrome -> Tùy chọn (Options).
+- Để tùy chỉnh cấu hình: Click chuột trái vào biểu tượng Extension ở thanh công cụ Chrome -> Tùy chọn (Options).
 - Trong tùy chọn, bạn có thể thay đổi: **Đường dẫn trang web** và danh sách **Từ khóa** (cách nhau bởi dấu phẩy).
 
 ## Hướng dẫn chạy lại / Test lại trong ngày
