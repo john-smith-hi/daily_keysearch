@@ -1,0 +1,22 @@
+fetch('https://lichcupdien.org/lich-cup-dien-ben-tre')
+  .then(response => response.text())
+  .then(html => {
+    // Phân tích cú pháp chuỗi HTML
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(html, 'text/html');
+    
+    // Lấy nội dung chữ thuần túy của toàn bộ trang web
+    const cleanText = doc.body.innerText; 
+    
+    console.log(cleanText); // Nội dung lúc này rất gọn, chỉ có chữ
+    
+    // Tiến hành tìm kiếm từ khóa cúp điện của bạn ở đây
+    if (cleanText.includes("Chợ Lách") || cleanText.includes("Mỏ Cày")) {
+      // Phát thông báo
+    }
+  });
+
+
+  đây là mẫu code mẫu, có thể thêm vào cài đặt tùy chọn đây là loại thông báo gì
+  nhớ cập nhật file README.md để hướng dẫn cài đặt và sử dụng
+  

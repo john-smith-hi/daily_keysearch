@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Cài đặt Cảnh báo</title>
+    <link rel="stylesheet" href="options.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Quản lý Các Cảnh Báo</h1>
+
+        <div id="taskList"></div>
+
+        <button id="addTaskBtn" class="btn-secondary">+ Thêm Cảnh Báo Mới</button>
+        <button id="saveBtn" class="btn-primary">Lưu Tất Cả & Quét Ngay</button>
+        <div id="status"></div>
+    </div>
+
+    <template id="taskTemplate">
+        <div class="task-card">
+            <button class="delete-btn" title="Xóa cảnh báo này">✖</button>
+            <div class="form-group">
+                <label>Nhãn dán thông báo:</label>
+                <input type="text" class="task-label" placeholder="VD: Lịch cúp điện">
+            </div>
+            <div class="form-group">
+                <label>Đường dẫn web (URL):</label>
+                <input type="text" class="task-url" placeholder="https://example.com">
+            </div>
+            <div class="form-group">
+                <label>Từ khóa tìm kiếm (cách nhau dấu phẩy):</label>
+                <input type="text" class="task-keywords" placeholder="Từ khóa 1, Từ khóa 2">
+            </div>
+        </div>
+    </template>
+
+    <script src="options.js"></script>
+</body>
+
+</html>

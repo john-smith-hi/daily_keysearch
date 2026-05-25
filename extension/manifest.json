@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Keyword Alert Extension",
+  "version": "1.0",
+  "description": "Tiện ích quét nội dung trang web và hiển thị thông báo popup theo từ khóa.",
+  "permissions": [
+    "storage",
+    "alarms"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "options.html",
+  "action": {
+    "default_title": "Mở Tùy Chọn"
+  }
+}

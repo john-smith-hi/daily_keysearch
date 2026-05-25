@@ -1,0 +1,2 @@
+Đây là tiện ích chrome phục vụ việc lấy nội dung trang web kèm theo việc cung cấp vài từ khóa nhất định, chỉ thực hiện quét 1 lần lúc trình duyệt được mở và 1 ngày chỉ quét đúng 1 lần, tạo database lưu lại hành động đã quét ở ngày hôm đó
+Khi quét xong lấy nội dung kết hợp với từ khóa được cung cấp xem có khớp không, nếu khớp thì hiển thị 1 cái popup giữa màn hình cảnh báo yêu cầu người dùng truy cập trang web với từ khóa đã cung cấp. Đường link và từ khóa có thể tùy chỉnh được
